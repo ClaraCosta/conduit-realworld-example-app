@@ -1,7 +1,7 @@
 <br>
 
 <h1 align="center">
-RealWorld example app With Cypress
+Testing Conduit With Cypress
 <p align="center">
  <br>
 </p></h1>
