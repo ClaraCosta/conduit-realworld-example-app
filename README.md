@@ -1,3 +1,28 @@
+<br>
+
+<h1 align="center">
+RealWorld example app With Cypress
+<p align="center">
+ <br>
+</p></h1>
+
+ 
+# Informações Gerais sobre a aplicação:
+ <p align="left">🚀 Esse repositório é destinado ao teste automatizado do sistema Web "Conduit", desenvolvido por <a href="https://github.com/TonyMckes">Anthony Mackensen</a>.</p>
+ <p align="left"> 📖 O atual diretório é um fork do projeto desenvolvido pelo <b>Anthony</b> para fins de estudo pessoal.</p>
+<p align="left"> 🧠 É altamente recomendável a leitura das informações inseridas pelo autor da aplicação, que servirão de guia para a instalação do projeto e configuração do ambiente.</p>
+
+# Sobre os testes:
+ <p align="left">🔨 Os testes foram desenvolvidos com Javascript e Cypress, com a finalidade de realizar uma cobertura end-to-end de uma aplicação simulando um cenário em que o(a) Analista de Qualidade possui acesso ao código fonte.</p>
+ <br>
+
+_<b>Responsável pela elaboração pela montagem do projeto de automação:</b> <a href="https://github.com/ClaraCosta/">Maria Clara Costa</a>_
+<br><br>
+
+---
+#### README.md do projeto RealWorld (Conduit):
+
+
 # ![RealWorld Example App](logo.png)
 
 > **React / Vite + SWC / Express.js / Sequelize / PostgreSQL codebase containing real world examples (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://realworld.io/) spec and API.**
