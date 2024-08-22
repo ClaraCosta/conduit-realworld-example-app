@@ -19,9 +19,9 @@ class login{
         cy.get(element.passwordInput)
         .should('have.attr', 'type', 'password')
         .and('have.attr', 'placeholder', 'Password')
-        .type(password);
+        .type(password+'{enter}');
 
-        return cy.get(element.loginButton).contains('Login').click();
+     //  return cy.get('.btn').click();
     }
 
 
