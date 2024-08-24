@@ -20,6 +20,17 @@ class home{
             .should('have.attr','href','#/editor')
             .click();
     }
+
+    exploringFooterPagination(){
+        const timesToClick = 3;
+
+        Array(timesToClick).fill().forEach(() => {
+        cy.get('#root > main > div > div.container.page > div > div > ul > li:nth-child(9) > a').click();
+        });
+
+        // return cy.get('.ion-arrow-right-b').click();;
+        
+    }
 }
 
 export default new home();
