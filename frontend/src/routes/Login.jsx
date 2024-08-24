@@ -11,9 +11,9 @@ function Login() {
 
   return (
     <AuthPageContainer
-      error={errorMessage}
+      error={"O login falhou! Tente novamente, ou crie uma nova conta!"}
       path="/register"
-      text="Need an account?"
+      text="Precisa de uma nova conta??"
       title="Sign in"
     >
       <LoginForm onError={handleError} />
