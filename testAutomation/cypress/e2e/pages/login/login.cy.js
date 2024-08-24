@@ -16,10 +16,18 @@ describe('Login Feature usando Page objects', () => {
 
         login.loginWithInvalidCredentials('clara.mc@test.com','123456');
         
-        cy.contains(element.stringLoginFalhou); 
+        cy.contains(element.stringEmailNotFound); 
     })
 
     it('2 - Fazer login usando credenciais válidas', () => {
+        home.accessLoginPage();
+        login.validateLoginPage();
+
+        cy.intercept('POST', 'api/users/login').as('postLogin');
+
+        login.loginWithValidCredentials('mariaclara@teste.com','Senha@teste');
+        
+        cy.contains(element.linkTextNewArticle); 
 
     })
 })

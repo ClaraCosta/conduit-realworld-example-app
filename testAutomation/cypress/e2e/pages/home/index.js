@@ -7,6 +7,10 @@ class home{
         cy.contains('Login').click().wait(1000);
     }
 
+    accessRegisterPage(){
+        cy.contains('Sign up').click().wait(1000);
+    }
+
     accessHomePage(){
         cy.visit('/');
     }
