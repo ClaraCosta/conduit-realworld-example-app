@@ -2,7 +2,7 @@ import home from '../home/index.js';
 import register from './index';
 const element = require('./elements').ELEMENTS;
 
-describe('Register Feature usando Page objects', () => {
+describe('Testando formlário de registro', () => {
 
     beforeEach(() => {
         home.accessHomePage();

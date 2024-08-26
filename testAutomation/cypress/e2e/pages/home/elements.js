@@ -1,5 +1,6 @@
 export const ELEMENTS = {
 
-    loginAccessLinkText: 'Login'
+    loginAccessLinkText: 'Login',
+    
  
  };

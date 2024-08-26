@@ -2,7 +2,7 @@ import home from '../home/index.js';
 import login from './index';
 const element = require('./elements').ELEMENTS;
 
-describe('Login Feature usando Page objects', () => {
+describe('Login com dados válidos e inválidos', () => {
 
     beforeEach(() => {
         home.accessHomePage();

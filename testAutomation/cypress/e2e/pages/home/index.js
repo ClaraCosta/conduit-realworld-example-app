@@ -28,7 +28,6 @@ class home{
         cy.get('#root > main > div > div.container.page > div > div > ul > li:nth-child(9) > a').click();
         });
 
-        // return cy.get('.ion-arrow-right-b').click();;
         
     }
 }
