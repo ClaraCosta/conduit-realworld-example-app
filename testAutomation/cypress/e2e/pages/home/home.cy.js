@@ -20,4 +20,5 @@ describe('Explorando a Home Page', () => {
     it('3 - Acessando o perfil da primeira pessoa do Global Feed', () => {
         home.accessFirstAuthor();
     })
+
 })
