@@ -5,7 +5,7 @@ class user_interactions{
     }
 
     returnMyArticles(){
-
+        cy.contains('My Articles').should('be.visible').click();
     }
 
     accessFolowers(){

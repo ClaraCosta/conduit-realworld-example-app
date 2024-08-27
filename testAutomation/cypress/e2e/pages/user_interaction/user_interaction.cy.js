@@ -7,14 +7,17 @@ describe('Explorando perfil de um usuário', () => {
 
     beforeEach(() => {
         home.accessHomePage();
-    })
-
-    it('1 - Acessando os Favorited Articles de um usuário', () => {
         home.accessLoginPage();
         login.validateLoginPage();
         login.loginWithValidCredentials('mariaclara@teste.com','Senha@teste');
         home.selectPopularTag();
         home.accessFirstAuthor();
-        user_interaction.accessFavoritedArticles();
     })
+
+    it('1 - Acessando os Favorited Articles de um usuário', () => {
+        user_interaction.accessFavoritedArticles();
+        user_interaction.returnMyArticles();
+        user_interaction.accessFolowers();
+    })
+
 })
