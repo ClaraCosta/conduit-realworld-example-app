@@ -15,6 +15,9 @@ describe('Explorando a Home Page', () => {
     it('2 - Retornando ao Global Feed', () => {
         home.selectPopularTag();
         home.accessGlobalFeed();
+    })
 
+    it('3 - Acessando o perfil da primeira pessoa do Global Feed', () => {
+        home.accessFirstAuthor();
     })
 })

@@ -25,7 +25,7 @@ class home{
         const timesToClick = 3;
 
         Array(timesToClick).fill().forEach(() => {
-        cy.get('#root > main > div > div.container.page > div > div > ul > li:nth-child(9) > a').click();
+            cy.get('ul > li').eq(8).find('a').click();
         });
         
     }
@@ -33,7 +33,6 @@ class home{
     selectPopularTag(){
         cy.get('.tag-list > :nth-child(4)')
         .click().wait(500);
- 
         
     }
 
@@ -41,6 +40,10 @@ class home{
         cy.contains('Global Feed')
         .click();
         
+    }
+
+    accessFirstAuthor(){
+        cy.get('.article-meta .author').eq(1).click();
     }
 }
 
