@@ -27,7 +27,19 @@ class home{
         Array(timesToClick).fill().forEach(() => {
         cy.get('#root > main > div > div.container.page > div > div > ul > li:nth-child(9) > a').click();
         });
+        
+    }
 
+    selectPopularTag(){
+        cy.get('.tag-list > :nth-child(4)')
+        .click().wait(500);
+ 
+        
+    }
+
+    accessGlobalFeed(){
+        cy.contains('Global Feed')
+        .click();
         
     }
 }

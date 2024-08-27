@@ -13,7 +13,6 @@ describe('Testando formlário de registro', () => {
 
         register.registerWithValidCredentials('testname', 'registervalid@email.com','123456aa');
         
-      //  cy.contains(element.stringLoginFalhou); 
     })
 
 })

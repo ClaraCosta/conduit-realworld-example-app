@@ -8,17 +8,13 @@ describe('Explorando a Home Page', () => {
         home.accessHomePage();
     })
 
-    it.only('1 - Avançando o rodapé de paginação', () => {
+    it('1 - Avançando o rodapé de paginação', () => {
         home.exploringFooterPagination();
     })
 
-    it('2 - Selecionando Popular Tags', () => {
-        
-
-    })
-
-    it('3 - Retornando ao Glocal Feed', () => {
-        
+    it('2 - Retornando ao Global Feed', () => {
+        home.selectPopularTag();
+        home.accessGlobalFeed();
 
     })
 })
