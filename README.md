@@ -16,6 +16,17 @@ Testing Conduit With Cypress
  <p align="left">🔨 Os testes foram desenvolvidos com Javascript e Cypress, com a finalidade de realizar uma cobertura end-to-end de uma aplicação simulando um cenário em que o(a) Analista de Qualidade possui acesso ao código fonte.</p>
  <br>
 
+ ## 🏃‍♂️<b>Caminho para os testes:
+  - `/testAutomation/`;
+  - `/cypress/`;
+  - `/e2e/pages/`;
+    - `/home/`;
+    - `/login/`;   
+    - `/register/`;
+    - `/user_interaction/`;
+ <br>
+ 
+
 _<b>Responsável pela elaboração pela montagem do projeto de automação:</b> <a href="https://github.com/ClaraCosta/">Maria Clara Costa</a>_
 <br><br>
 
