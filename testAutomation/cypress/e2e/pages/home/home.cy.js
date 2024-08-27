@@ -1,5 +1,4 @@
 import home from './index.js';
-import login from './index';
 const element = require('./elements').ELEMENTS;
 
 describe('Explorando a Home Page', () => {

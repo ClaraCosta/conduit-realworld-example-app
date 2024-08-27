@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cypress": "^13.13.3",
     "testautomation": "file:"
   }
 }
